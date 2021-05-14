@@ -1,0 +1,33 @@
+div:hover {
+  border: 3px solid red;
+}
+
+div:nth-of-type(1) {
+  background-color: red;
+  text-align: center;
+}
+
+div:nth-of-type(2) {
+  background-color: green;
+  font-size: 30px;
+}
+
+div:nth-of-type(3) {
+  background-color: blueviolet;
+  height: 90px;
+  text-align: end;
+}
+
+div:nth-of-type(4) {
+  background-color: darkslategray;
+  color: aqua;
+}
+
+div:nth-of-type(5) {
+  background-color: lightgray;
+  font-family: "Courier New", Courier, monospace;
+}
+
+div:nth-of-type(odd) {
+  font-style: italic;
+}

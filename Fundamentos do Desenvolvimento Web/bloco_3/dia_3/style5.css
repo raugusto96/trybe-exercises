@@ -1,0 +1,60 @@
+ol {
+  background-color: darkgoldenrod;
+}
+
+ol li:nth-child(even) {
+  color: green;
+}
+
+ol li.prime-number {
+  text-transform: uppercase;
+}
+
+.header {
+  color: red;
+}
+
+.italic {
+  font-size: 40px;
+  border: 1px solid black;
+}
+
+li {
+  font-size: 20px;
+}
+
+li em {
+  font-weight: bold;
+}
+
+.languages:nth-child(n + 1) :nth-child(-n + 3) {
+  color: blue;
+}
+
+.java {
+  background-color: pink;
+}
+
+.partners li:hover {
+  font-weight: bold;
+}
+
+.partners li:nth-of-type(1) a:hover {
+  color: orange;
+}
+
+.partners li:nth-of-type(2) a:hover {
+  color: green;
+}
+
+.partners li:nth-of-type(3) a:hover {
+  color: black;
+}
+
+.partners li:nth-of-type(4) a:hover {
+  color: yellow;
+}
+
+.partners li:nth-of-type(5) a:hover {
+  color: darkgreen;
+}
