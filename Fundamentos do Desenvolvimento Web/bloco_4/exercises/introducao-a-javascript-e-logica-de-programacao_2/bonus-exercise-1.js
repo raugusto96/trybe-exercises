@@ -8,5 +8,5 @@ for (let index = 1; index < numbers.length; index += 1) {
       numbers[secondIndex] = position;
     }
   }
-  console.log(numbers);
 }
+console.log(numbers);
