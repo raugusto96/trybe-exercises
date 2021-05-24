@@ -1,4 +1,4 @@
-let n = 5;
+let n = 7;
 let asterisk = '*';
 let blankRow = '';
 let temp = 0;
