@@ -102,10 +102,8 @@
       function upperCase(element) {
         let paragraphUpperCase = document.getElementsByTagName(element);
         for (let index = 0; index < paragraphUpperCase.length; index += 1) {
-          if (index === 1) {
-            paragraphUpperCase[index].innerText =
-              'Me vejo fora do país com uma bela namorada e uma vida estável.'.toUpperCase();
-          }
+          paragraphUpperCase[index].innerText =
+            paragraphUpperCase[index].innerText.toUpperCase();
         }
         return paragraphUpperCase;
       }
@@ -116,7 +114,7 @@
       function displayConsole(element) {
         let displayTagP = document.getElementsByTagName(element);
         for (let index = 0; index < displayTagP.length; index += 1) {
-          console.log(displayTagP[index]);
+          console.log(displayTagP[index].innerText);
         }
         return displayTagP;
       }
