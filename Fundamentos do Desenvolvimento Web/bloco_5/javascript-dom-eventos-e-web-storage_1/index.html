@@ -60,6 +60,19 @@
         }
         return paragraph;
       }
+
+      // Exercício 2
+      console.log(changeText('p'));
+
+      function changeMainSectionColor(element, color) {
+        let greenSection = document.getElementsByClassName(element);
+        for (let index = 0; index < greenSection.length; index += 1) {
+          greenSection[0].style.backgroundColor = 'rgb(76,164,109)';
+        }
+        return greenSection;
+      }
+
+      console.log(changeMainSectionColor('main-content'));
     </script>
   </body>
 </html>
