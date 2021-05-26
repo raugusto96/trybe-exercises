@@ -107,6 +107,17 @@
       }
 
       upperCase('p');
+
+      // Exercício 6
+      function displayConsole(element) {
+        let displayTagP = document.getElementsByTagName(element);
+        for (let index = 0; index < displayConsole.length; index += 1) {
+          console.log(displayTagP[index]);
+        }
+        return displayTagP;
+      }
+
+      displayConsole('p');
     </script>
   </body>
 </html>
