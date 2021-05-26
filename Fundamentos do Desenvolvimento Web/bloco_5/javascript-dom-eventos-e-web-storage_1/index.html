@@ -55,8 +55,10 @@
       function changeText(element, text) {
         let paragraph = document.getElementsByTagName(element);
         for (let index = 0; index < paragraph.length; index += 1) {
-          paragraph[index].innerText =
-            'Me vejo fora do país com uma bela namorada e uma vida estável.';
+          if (index === 1) {
+            paragraph[index].innerText =
+              'Me vejo fora do país com uma bela namorada e uma vida estável.';
+          }
         }
         return paragraph;
       }
@@ -100,8 +102,10 @@
       function upperCase(element) {
         let paragraphUpperCase = document.getElementsByTagName(element);
         for (let index = 0; index < paragraphUpperCase.length; index += 1) {
-          paragraphUpperCase[index].innerText =
-            'Me vejo fora do país com uma bela namorada e uma vida estável.'.toUpperCase();
+          if (index === 1) {
+            paragraphUpperCase[index].innerText =
+              'Me vejo fora do país com uma bela namorada e uma vida estável.'.toUpperCase();
+          }
         }
         return paragraphUpperCase;
       }
@@ -111,7 +115,7 @@
       // Exercício 6
       function displayConsole(element) {
         let displayTagP = document.getElementsByTagName(element);
-        for (let index = 0; index < displayConsole.length; index += 1) {
+        for (let index = 0; index < displayTagP.length; index += 1) {
           console.log(displayTagP[index]);
         }
         return displayTagP;
