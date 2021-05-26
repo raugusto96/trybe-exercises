@@ -73,6 +73,17 @@
       }
 
       console.log(changeMainSectionColor('main-content'));
+
+      // Exercício 3
+      function chanceCenterSectionColor(element, color) {
+        let whiteSection = document.getElementsByClassName(element);
+        for (let index = 0; index < whiteSection.length; index += 1) {
+          whiteSection[0].style.backgroundColor = 'rgb(255, 255, 255)';
+        }
+        return whiteSection;
+      }
+
+      console.log(chanceCenterSectionColor('center-content'));
     </script>
   </body>
 </html>
