@@ -40,17 +40,17 @@
     </div>
     <script>
       /*
-        Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
-        - document.getElementById()
-        - document.getElementsByClassName()
-        - document.getElementsByTagName()
- Crie uma função que mude o texto na tag <p> para uma descrição de como você se vê daqui a 2 anos. (Não gaste tempo pensando no texto e sim realizando o exercício)
- Crie uma função que mude a cor do quadrado amarelo para o verde da Trybe (rgb(76,164,109)).
- Crie uma função que mude a cor do quadrado vermelho para branco.
- Crie uma função que corrija o texto da tag <h1>.
- Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
- Crie uma função que exiba o conteúdo de todas as tags <p> no console.
-        */
+             Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
+             - document.getElementById()
+             - document.getElementsByClassName()
+             - document.getElementsByTagName()
+      Crie uma função que mude o texto na tag <p> para uma descrição de como você se vê daqui a 2 anos. (Não gaste tempo pensando no texto e sim realizando o exercício)
+      Crie uma função que mude a cor do quadrado amarelo para o verde da Trybe (rgb(76,164,109)).
+      Crie uma função que mude a cor do quadrado vermelho para branco.
+      Crie uma função que corrija o texto da tag <h1>.
+      Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
+      Crie uma função que exiba o conteúdo de todas as tags <p> no console.
+             */
       // Exercício 1
       function changeText(element, text) {
         let paragraph = document.getElementsByTagName(element);
@@ -61,29 +61,40 @@
         return paragraph;
       }
 
-      // Exercício 2
-      console.log(changeText('p'));
+      changeText('p');
 
+      // Exercício 2
       function changeMainSectionColor(element, color) {
         let greenSection = document.getElementsByClassName(element);
         for (let index = 0; index < greenSection.length; index += 1) {
-          greenSection[0].style.backgroundColor = 'rgb(76,164,109)';
+          greenSection[index].style.backgroundColor = 'rgb(76,164,109)';
         }
         return greenSection;
       }
 
-      console.log(changeMainSectionColor('main-content'));
+      changeMainSectionColor('main-content');
 
       // Exercício 3
       function chanceCenterSectionColor(element, color) {
         let whiteSection = document.getElementsByClassName(element);
         for (let index = 0; index < whiteSection.length; index += 1) {
-          whiteSection[0].style.backgroundColor = 'rgb(255, 255, 255)';
+          whiteSection[index].style.backgroundColor = 'rgb(255, 255, 255)';
         }
         return whiteSection;
       }
 
-      console.log(chanceCenterSectionColor('center-content'));
+      chanceCenterSectionColor('center-content');
+
+      // Exercício 4
+      function fixHeaderText(element, text) {
+        let headText = document.getElementsByTagName(element);
+        for (let index = 0; index < headText.length; index += 1) {
+          headText[index].innerText = 'Exercício 5.1 - JavaScript';
+        }
+        return headText;
+      }
+
+      fixHeaderText('h1');
     </script>
   </body>
 </html>
