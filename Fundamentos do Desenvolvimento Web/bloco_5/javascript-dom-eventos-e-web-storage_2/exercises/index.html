@@ -87,6 +87,14 @@
       image.src = 'https://picsum.photos/200';
       image.className = 'small-image';
       leftDiv.appendChild(image);
+      // Exercício 8
+      let uList = document.createElement('ul');
+      rightDiv.appendChild(uList);
+      for (let index =0; index < 10; index += 1) {
+        let elementList = document.createElement('li');
+        elementList.innerText = index;
+        uList.appendChild(elementList);
+      }
     </script>
   </body>
 </html>
