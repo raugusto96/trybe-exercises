@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Teste</title>
+</head>
+<body>
+  <div id="paiDoPai">
+    <div id="pai">
+      <div id="primeiroFilho"></div>
+      <div id="elementoOndeVoceEsta">
+        <div id="primeiroFilhoDoFilho"></div>
+        <div id="segundoEUltimoFilhoDoFilho"></div>
+      </div>
+      Atenção!
+      <div id="terceiroFilho"></div>
+      <div id="quartoEUltimoFilho"></div>
+    </div>
+  </div>
+  <script>
+    // Exercício 1
+    document.querySelector('#elementoOndeVoceEsta');
+    // Exercício 2
+    document.querySelector('#elementoOndeVoceEsta').parentElement.style.backgroundColor = 'orange';
+    // Exercício 3
+    document.querySelector('#primeiroFilhoDoFilho').innerText = 'Sou o primeiro filho';
+    // Exercício 4
+    document.querySelector('#elementoOndeVoceEsta').parentElement.firstElementChild;
+    // Exercício 5
+    document.querySelector('#elementoOndeVoceEsta').firstElementChild;
+    // Exercício 6
+    document.querySelector('#elementoOndeVoceEsta').parentElement.childNodes[4];
+    // Exercício 7
+    document.querySelector('#elementoOndeVoceEsta').parentElement.children[2];
+    // Exercício 8
+    document.querySelector('#pai').children[2];
+    // Exercício 1 - Parte 2
+    let father = document.querySelector('#pai');
+    let divBrother = document.createElement('div');
+    divBrother.innerText = 'Sou a div irmã da div elementoOndeVoceEsta';
+    father.appendChild(divBrother);
+    // Exercício 2 - Parte 2
+    let elementFather = document.querySelector('#elementoOndeVoceEsta');
+    let childP = document.createElement('p');
+    childP.innerText = 'Sou o paragrafo filho da div elementoOndeVoceEsta';
+    elementFather.appendChild(childP);
+    // Exercício 3 - Parte 2
+    let sonOfSon = document.querySelector('#primeiroFilhoDoFilho');
+    let childOfSonOfSon = document.createElement('p');
+    childOfSonOfSon.innerText = 'Sou o paragrafo filho da div primeiroFilhoDoFilho';
+    sonOfSon.appendChild(childOfSonOfSon);
+    // Exercício 4 - Parte 2
+    document.getElementsByTagName('p')[1].parentElement.parentElement.children[2];
+    // Exercício 1 - Parte 3
+    let firstElement = document.querySelector('#pai');
+    firstElement.removeChild(document.querySelector('#primeiroFilho'));
+    firstElement.removeChild(document.querySelector('#terceiroFilho'));
+    firstElement.removeChild(document.querySelector('#quartoEUltimoFilho'));
+    firstElement.removeChild(document.querySelectorAll('div')[5]);
+  </script>
+</body>
+</html>
