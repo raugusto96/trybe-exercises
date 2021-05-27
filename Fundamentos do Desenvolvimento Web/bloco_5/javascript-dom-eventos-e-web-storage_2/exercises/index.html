@@ -59,9 +59,9 @@
     <script>
       // Exercício 1
       let body = document.querySelector('body');
-      let firstElement = document.createElement('h1');
-      firstElement.innerText = 'Exercício 5.2 - JavaScript DOM';
-      body.appendChild(firstElement);
+      let firstHeading = document.createElement('h1');
+      firstHeading.innerText = 'Exercício 5.2 - JavaScript DOM';
+      body.appendChild(firstHeading);
       // Exercício 2
       let firstDiv = document.createElement('div');
       firstDiv.className = 'main-content';
@@ -70,6 +70,10 @@
       let secondDiv = document.createElement('div');
       secondDiv.className = 'center-content';
       firstDiv.appendChild(secondDiv);
+      // Exercício 4
+      let firstParagraph = document.createElement('p');
+      firstParagraph.innerText = 'Trybe';
+      secondDiv.appendChild(firstParagraph);
     </script>
   </body>
 </html>
