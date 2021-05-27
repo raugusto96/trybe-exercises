@@ -51,7 +51,12 @@
     sonOfSon.appendChild(childOfSonOfSon);
     // Exercício 4 - Parte 2
     document.getElementsByTagName('p')[1].parentElement.parentElement.children[2];
-
+    // Exercício 1 - Parte 3
+    let firstElement = document.querySelector('#pai');
+    firstElement.removeChild(document.querySelector('#primeiroFilho'));
+    firstElement.removeChild(document.querySelector('#terceiroFilho'));
+    firstElement.removeChild(document.querySelector('#quartoEUltimoFilho'));
+    firstElement.removeChild(document.querySelectorAll('div')[5]);
   </script>
 </body>
 </html>
