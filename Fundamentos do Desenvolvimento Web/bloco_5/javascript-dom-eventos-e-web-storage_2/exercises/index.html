@@ -64,7 +64,12 @@
       body.appendChild(firstElement);
       // Exercício 2
       let firstDiv = document.createElement('div');
+      firstDiv.className = 'main-content';
       body.appendChild(firstDiv);
+      // Exercício 3
+      let secondDiv = document.createElement('div');
+      secondDiv.className = 'center-content';
+      firstDiv.appendChild(secondDiv);
     </script>
   </body>
 </html>
