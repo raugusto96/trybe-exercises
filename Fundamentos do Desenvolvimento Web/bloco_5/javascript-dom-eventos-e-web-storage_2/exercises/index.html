@@ -90,10 +90,16 @@
       // Exercício 8
       let uList = document.createElement('ul');
       rightDiv.appendChild(uList);
-      for (let index =0; index < 10; index += 1) {
+      for (let index = 1; index < 11; index += 1) {
         let elementList = document.createElement('li');
         elementList.innerText = index;
         uList.appendChild(elementList);
+      }
+      // Exercício 9
+      for (let index = 0; index < 3; index += 1) {
+        let firstH3 = document.createElement('h3');
+        firstH3.innerText = 'Sou um H3';
+        firstDiv.appendChild(firstH3);
       }
     </script>
   </body>
