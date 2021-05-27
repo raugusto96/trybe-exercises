@@ -34,6 +34,11 @@
     document.querySelector('#elementoOndeVoceEsta').parentElement.children[2];
     // Exercício 8
     document.querySelector('#pai').children[2];
+    // Exercício 1 - Parte 2
+    let father = document.querySelector('#pai');
+    let divBrother = document.createElement('div');
+    divBrother.innerText = 'Sou a div irmã da div elementoOndeVoceEsta';
+    father.appendChild(divBrother);
 
   </script>
 </body>
