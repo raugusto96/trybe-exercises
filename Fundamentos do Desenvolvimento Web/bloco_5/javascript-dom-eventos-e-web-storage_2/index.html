@@ -44,6 +44,11 @@
     let childP = document.createElement('p');
     childP.innerText = 'Sou o paragrafo filho da div elementoOndeVoceEsta';
     elementFather.appendChild(childP);
+    // Exercício 3 - Parte 2
+    let sonOfSon = document.querySelector('#primeiroFilhoDoFilho');
+    let childOfSonOfSon = document.createElement('p');
+    childOfSonOfSon.innerText = 'Sou o paragrafo filho da div primeiroFilhoDoFilho';
+    sonOfSon.appendChild(childOfSonOfSon);
 
   </script>
 </body>
