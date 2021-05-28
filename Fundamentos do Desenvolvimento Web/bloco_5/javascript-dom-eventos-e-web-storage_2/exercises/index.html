@@ -90,18 +90,31 @@
       // Exercício 8
       let uList = document.createElement('ul');
       rightDiv.appendChild(uList);
-      for (let index = 1; index < 11; index += 1) {
-        let elementList = document.createElement('li');
-        elementList.innerText = index;
-        uList.appendChild(elementList);
+      function createLiElement(element, string) {
+        element = document.createElement('li');
+        element.innerText = string;
+        return element;
       }
+      uList.appendChild(createLiElement('firstLi', 'um'));
+      uList.appendChild(createLiElement('secondLi', 'dois'));
+      uList.appendChild(createLiElement('secondLi', 'três'));
+      uList.appendChild(createLiElement('secondLi', 'quatro'));
+      uList.appendChild(createLiElement('secondLi', 'cinco'));
+      uList.appendChild(createLiElement('secondLi', 'seis'));
+      uList.appendChild(createLiElement('secondLi', 'sete'));
+      uList.appendChild(createLiElement('secondLi', 'oito'));
+      uList.appendChild(createLiElement('secondLi', 'nove'));
+      uList.appendChild(createLiElement('secondLi', 'dez'));
+
       // Exercício 9 e 11
-      for (let index = 0; index < 3; index += 1) {
-        let firstH3 = document.createElement('h3');
-        firstH3.innerText = 'Sou um H3';
-        firstH3.className = 'description';
-        firstDiv.appendChild(firstH3);
+      function createH3Element(element, string) {
+        element = document.createElement('h3');
+        element.innerText = string;
+        return element;
       }
+      firstDiv.appendChild(createH3Element('firstH3', 'Sou um h3'));
+      firstDiv.appendChild(createH3Element('secondH3', 'Sou um h3'));
+      firstDiv.appendChild(createH3Element('thirdH3', 'Sou um h3'));
       // Exercício 10
       firstHeading.className = 'title';
       // Exercício 12
@@ -110,7 +123,6 @@
       rightDiv.style.marginRight = 'auto';
       // Exercício 14
       secondDiv.parentElement.style.backgroundColor = 'green';
-      
     </script>
   </body>
 </html>
