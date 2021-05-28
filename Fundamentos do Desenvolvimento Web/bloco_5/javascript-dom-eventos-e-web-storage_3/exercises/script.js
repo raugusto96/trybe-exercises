@@ -35,5 +35,14 @@ function createNumberDays() {
     monthDaysList.appendChild(dayListItem);
   }
 }
-
 createNumberDays();
+
+// Exercício 2
+function createButton(holiday) {
+  const buttonsContainer = document.querySelector('.buttons-container');
+  const button = document.createElement('button');
+  button.innerHTML = 'Feriados';
+  button.id = 'btn-holiday';
+  buttonsContainer.appendChild(button);
+}
+createButton();
