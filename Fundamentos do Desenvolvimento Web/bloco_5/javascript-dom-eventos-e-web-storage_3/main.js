@@ -5,7 +5,6 @@ const input = document.getElementById('input');
 const myWebpage = document.getElementById('mySpotrybefy');
 
 /*
- Copie esse arquivo e edite apenas ele;
  Crie uma função que adicione a classe 'tech' ao elemento selecionado;
 1. Deve existir apenas um elemento com a classe 'tech'. Como você faz isso?
  Crie uma função que, ao digitar na caixa de texto, altere o texto do elemento
@@ -18,6 +17,24 @@ a cor do mesmo;
 
 Segue abaixo um exemplo do uso de event.target:
 */
+
+divUm.addEventListener('click', removeClass);
+divUm.addEventListener('click', addClass);
+
+divDois.addEventListener('click', removeClass);
+divDois.addEventListener('click', addClass);
+
+divTres.addEventListener('click', removeClass);
+divTres.addEventListener('click', addClass);
+
+function removeClass() {
+  let classToRemove = document.getElementsByClassName('tech')[0];
+  classToRemove.classList.remove('tech');
+}
+
+function addClass(element) {
+  element.target.className = 'tech';
+}
 
 function resetText(event) {
   // O Event é passado como um parâmetro para a função.
