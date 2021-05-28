@@ -31,6 +31,10 @@ divTres.addEventListener('click', addClass);
 
 input.addEventListener('keyup', editText);
 
+myWebpage.addEventListener('dblclick', redirectPage);
+myWebpage.addEventListener('mouseover', changeColor);
+myWebpage.addEventListener('mouseleave', resetColor);
+
 function removeClass() {
   let classToRemove = document.getElementsByClassName('tech')[0];
   classToRemove.classList.remove('tech');
@@ -43,6 +47,18 @@ function addClass(element) {
 function editText() {
   let divToEditText = document.getElementsByClassName('tech')[0];
   divToEditText.innerText = input.value;
+}
+
+function redirectPage() {
+  location = 'https://onepieceex.net/';
+}
+
+function changeColor() {
+  document.getElementById('mySpotrybefy').style.color = 'green';
+}
+
+function resetColor() {
+  document.getElementById('mySpotrybefy').style.color = 'white';
 }
 
 function resetText(event) {
