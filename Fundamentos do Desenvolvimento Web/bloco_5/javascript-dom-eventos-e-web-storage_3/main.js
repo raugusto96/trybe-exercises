@@ -20,12 +20,16 @@ Segue abaixo um exemplo do uso de event.target:
 
 divUm.addEventListener('click', removeClass);
 divUm.addEventListener('click', addClass);
+divUm.addEventListener('keyup', editText);
 
 divDois.addEventListener('click', removeClass);
 divDois.addEventListener('click', addClass);
+divDois.addEventListener('keyup', editText);
 
 divTres.addEventListener('click', removeClass);
 divTres.addEventListener('click', addClass);
+
+input.addEventListener('keyup', editText);
 
 function removeClass() {
   let classToRemove = document.getElementsByClassName('tech')[0];
@@ -34,6 +38,11 @@ function removeClass() {
 
 function addClass(element) {
   element.target.className = 'tech';
+}
+
+function editText() {
+  let divToEditText = document.getElementsByClassName('tech')[0];
+  divToEditText.innerText = input.value;
 }
 
 function resetText(event) {
