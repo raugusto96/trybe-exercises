@@ -99,12 +99,15 @@
       for (let index = 0; index < 3; index += 1) {
         let firstH3 = document.createElement('h3');
         firstH3.innerText = 'Sou um H3';
+        firstH3.className = 'description';
         firstDiv.appendChild(firstH3);
       }
       // Exercício 10
       firstHeading.className = 'title';
       // Exercício 11
-      firstH3.className = 'description';
+
+      // Exercício 12
+      firstDiv.removeChild(document.querySelector('.left-content'));
     </script>
   </body>
 </html>
