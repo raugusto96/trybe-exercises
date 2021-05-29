@@ -150,3 +150,20 @@ function createLegend(color) {
 }
 
 createLegend('rgb(91, 141, 51)');
+
+// Exercício 9
+function addTask() {
+  const tasks = document.querySelector('.task');
+  const oldClass = 'task';
+  const newClass = 'task selected';
+  tasks.addEventListener('click', function() {
+    if (tasks.className === newClass) {
+      tasks.className = oldClass;
+    }
+    else {
+      tasks.className = newClass;
+    }
+  })
+}
+
+addTask();
