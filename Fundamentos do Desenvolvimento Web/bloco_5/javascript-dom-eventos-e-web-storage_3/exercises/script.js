@@ -129,3 +129,13 @@ function toRemoveZoom() {
 
 toApllyZoom();
 toRemoveZoom();
+
+// Exercício 7
+function createTask(task) {
+  const myTasks = document.querySelector('.my-tasks');
+  const tasks = document.createElement('span');
+  tasks.innerHTML = task;
+  myTasks.appendChild(tasks);
+}
+
+createTask('Estudar');
