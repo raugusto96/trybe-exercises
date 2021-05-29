@@ -184,3 +184,31 @@ function selectDay() {
 }
 
 selectDay();
+
+// Exercício Bônus
+function addCompromisse() {
+  const button = document.querySelector('#btn-add');
+  const input = document.querySelector('#task-input');
+  const compromisseList = document.querySelector('.task-list');
+  
+  button.addEventListener('click', function() {
+    if (input.value.length === 0) {
+      alert('Erro! Campo vazio');
+    }
+    const compromisseListItem = document.createElement('li');
+    compromisseListItem.innerHTML = input.value;
+    compromisseList.appendChild(compromisseListItem);
+    input.value = '';
+  });
+
+  input.addEventListener('keyup', function(event) {
+    if (event.keyCode === 13 && input.value !== 0) {
+      const compromisseListItem = document.createElement('li');
+      compromisseListItem.innerHTML = input.value;
+      compromisseList.appendChild(compromisseListItem);
+      input.value = '';
+    }
+  });
+}
+
+addCompromisse();
