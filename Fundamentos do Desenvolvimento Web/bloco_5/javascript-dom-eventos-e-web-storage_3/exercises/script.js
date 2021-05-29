@@ -44,12 +44,12 @@ createNumberDays();
 // Exercício 2
 function createButton(holiday) {
   const buttonsContainer = document.querySelector('.buttons-container');
-  const button = document.createElement('button');
-  button.innerHTML = 'Feriados';
-  button.id = 'btn-holiday';
-  buttonsContainer.appendChild(button);
+  const buttonHoliday = document.createElement('button');
+  buttonHoliday.id = 'btn-holiday';
+  buttonHoliday.innerHTML = holiday;
+  buttonsContainer.appendChild(buttonHoliday);
 }
-createButton();
+createButton('Feriados');
 
 // Exercício 3
 function holiday() {
@@ -68,3 +68,14 @@ function holiday() {
   });
 }
 holiday();
+
+// Exercício 4
+function friday(friday) {
+  const buttonsContainer = document.querySelector('.buttons-container');
+  const buttonFriday = document.createElement('button');
+  buttonFriday.id = 'btn-friday';
+  buttonFriday.innerHTML = friday;
+  buttonsContainer.appendChild(buttonFriday);
+}
+
+friday('Sexta-feira');
