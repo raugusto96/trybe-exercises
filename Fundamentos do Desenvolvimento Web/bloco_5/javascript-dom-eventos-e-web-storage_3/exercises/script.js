@@ -167,3 +167,20 @@ function addTask() {
 }
 
 addTask();
+
+// Exercício 10
+function selectDay() {
+  const days = document.querySelector('#days');
+  const color = 'rgb(119, 119, 119)';
+  const newColor = 'rgb(91, 141, 51)';
+  days.addEventListener('click', function (event){
+    if (event.target.style.color === newColor) {
+      event.target.style.color = color;
+    }
+    else {
+      event.target.style.color = newColor;
+    }
+  });
+}
+
+selectDay();
