@@ -26,12 +26,16 @@ function createNumberDays() {
     dayListItem.className = 'day';
     dayListItem.innerHTML = days;
 
-    if (days === 24 || days === 25 || days === 31) {
+    if (days === 24 || days === 31) {
       dayListItem.className = 'day holiday';
     }
-    if (days === 4 || days === 11 || days === 18 || days === 25) {
+    if (days === 4 || days === 11 || days === 18) {
       dayListItem.className = 'day friday'
     }
+    if (days === 25) {
+      dayListItem.className = 'day friday holiday';
+    }
+
     monthDaysList.appendChild(dayListItem);
   }
 }
@@ -46,3 +50,21 @@ function createButton(holiday) {
   buttonsContainer.appendChild(button);
 }
 createButton();
+
+// Exercício 3
+function holiday() {
+  const buttonHoliday = document.querySelector('#btn-holiday');
+  const holidayDays = document.querySelectorAll('.holiday');
+  buttonHoliday.addEventListener('click', function() {
+    const color = 'rgb(238,238,238)'
+    const newColor = 'rgb(59, 48, 41)'
+    for (let index = 0; index < holidayDays.length; index += 1) {
+      if (holidayDays[index].style.backgroundColor === newColor) {
+        holidayDays[index].style.backgroundColor = color;
+      } else {
+        holidayDays[index].style.backgroundColor = newColor;
+      }
+    }
+  });
+}
+holiday();
