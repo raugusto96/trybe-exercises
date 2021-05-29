@@ -111,3 +111,21 @@ function catchFridayDays() {
 }
 
 catchFridayDays();
+
+// Exercício 6
+function toApllyZoom() {
+  const days = document.querySelector('#days');
+    days.addEventListener('mouseover', function(event) {
+        event.target.style.fontSize = '30px';
+  });
+}
+
+function toRemoveZoom() {
+  const days = document.querySelector('#days');
+  days.addEventListener('mouseout', function(event) {
+    event.target.style.fontSize = '20px';
+  });
+}
+
+toApllyZoom();
+toRemoveZoom();
