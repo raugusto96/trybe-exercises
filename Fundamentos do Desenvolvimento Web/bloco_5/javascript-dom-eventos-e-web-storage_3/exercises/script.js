@@ -139,3 +139,14 @@ function createTask(task) {
 }
 
 createTask('Estudar');
+
+// Exercício 8
+function createLegend(color) {
+  const myTasks = document.querySelector('.my-tasks');
+  const task = document.createElement('div');
+  task.className = 'task';
+  task.style.backgroundColor = color;
+  myTasks.appendChild(task);
+}
+
+createLegend('rgb(91, 141, 51)');
