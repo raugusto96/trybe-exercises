@@ -38,5 +38,9 @@ const fontSize3 = document.createElement('div');
 fontSize3.innerHTML = '30px';
 fontSizing.appendChild(fontSize3);
 // Estilo da Fonte
+const fontStylish = document.querySelector('.font-type-container');
+const fontStyle1 = document.createElement('div');
+fontStyle1.innerHTML = 'Itálico';
+fontStylish.appendChild(fontStyle1);
 
 // Espessura da linha
