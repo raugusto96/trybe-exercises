@@ -48,4 +48,9 @@ fontStyle2.innerHTML = 'Fantasy';
 fontStyle2.style.marginLeft = '15%';
 fontStylish.appendChild(fontStyle2);
 
+const fontStyle3 = document.createElement('div');
+fontStyle3.innerHTML = 'Sans-serif';
+fontStyle3.style.marginLeft = '10%';
+fontStylish.appendChild(fontStyle3);
+
 // Espessura da linha
