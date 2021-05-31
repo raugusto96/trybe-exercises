@@ -11,6 +11,34 @@ backgroundColor.appendChild(color2);
 const color3 = document.createElement('div');
 color3.style.backgroundColor = 'rgb(75, 75, 75)';
 backgroundColor.appendChild(color3);
+
+color1.addEventListener('click', function() {
+  const body = document.querySelector('body');
+  if (body.style.backgroundColor === 'green') {
+    body.style.backgroundColor = 'white';
+  } else {
+    body.style.backgroundColor = 'green';
+  }
+});
+
+color2.addEventListener('click', function() {
+  const body = document.querySelector('body');
+  if (body.style.backgroundColor === 'lightblue') {
+    body.style.backgroundColor = 'white';
+  } else {
+    body.style.backgroundColor = 'lightblue';
+  }
+});
+
+color3.addEventListener('click', function() {
+  const body = document.querySelector('body');
+  if (body.style.backgroundColor === 'rgb(75, 75, 75)') {
+    body.style.backgroundColor = 'white';
+  } else {
+    body.style.backgroundColor = 'rgb(75, 75, 75)';
+  }
+});
+
 // Cor da fonte
 const textColor = document.querySelector('.text-color-container');
 const textColor1 = document.createElement('div');
@@ -48,11 +76,6 @@ fontStyle2.innerHTML = 'Fantasy';
 fontStyle2.style.marginLeft = '15%';
 fontStylish.appendChild(fontStyle2);
 
-const fontStyle3 = document.createElement('div');
-fontStyle3.innerHTML = 'Sans-serif';
-fontStyle3.style.marginLeft = '10%';
-fontStylish.appendChild(fontStyle3);
-
 // Espessura da linha
 const fontSpacing = document.querySelector('.line-container');
 const fontSpace1 = document.createElement('div');
@@ -64,5 +87,5 @@ fontSpace2.innerHTML = '20%';
 fontSpacing.appendChild(fontSpace2);
 
 const fontSpace3 = document.createElement('div');
-fontSpace3.innerHTML = '10%';
+fontSpace3.innerHTML = '30%';
 fontSpacing.appendChild(fontSpace3);
