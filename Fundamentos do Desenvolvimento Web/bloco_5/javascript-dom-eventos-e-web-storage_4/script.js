@@ -54,3 +54,8 @@ fontStyle3.style.marginLeft = '10%';
 fontStylish.appendChild(fontStyle3);
 
 // Espessura da linha
+const fontSpacing = document.querySelector('.line-container');
+const fontSpace1 = document.createElement('div');
+fontSpace1.innerHTML = '10%';
+fontSpacing.appendChild(fontSpace1);
+
