@@ -40,7 +40,12 @@ fontSizing.appendChild(fontSize3);
 // Estilo da Fonte
 const fontStylish = document.querySelector('.font-type-container');
 const fontStyle1 = document.createElement('div');
-fontStyle1.innerHTML = 'Itálico';
+fontStyle1.innerHTML = 'Monospace';
 fontStylish.appendChild(fontStyle1);
+
+const fontStyle2 = document.createElement('div');
+fontStyle2.innerHTML = 'Fantasy';
+fontStyle2.style.marginLeft = '15%';
+fontStylish.appendChild(fontStyle2);
 
 // Espessura da linha
