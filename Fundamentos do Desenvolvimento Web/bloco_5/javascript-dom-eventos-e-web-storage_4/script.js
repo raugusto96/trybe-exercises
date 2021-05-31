@@ -25,7 +25,10 @@ const textColor3 = document.createElement('div');
 textColor3.style.backgroundColor = 'rgb(0, 0, 0)'
 textColor.appendChild(textColor3);
 // Tamanho da Fonte
-
+const fontSizing = document.querySelector('.font-size-container');
+const fontSize1 = document.createElement('h3');
+fontSize1.innerHTML = '20px';
+fontSizing.appendChild(fontSize1);
 // Estilo da Fonte
 
 // Espessura da linha
