@@ -59,3 +59,6 @@ const fontSpace1 = document.createElement('div');
 fontSpace1.innerHTML = '10%';
 fontSpacing.appendChild(fontSpace1);
 
+const fontSpace2 = document.createElement('div');
+fontSpace2.innerHTML = '20%';
+fontSpacing.appendChild(fontSpace2);
