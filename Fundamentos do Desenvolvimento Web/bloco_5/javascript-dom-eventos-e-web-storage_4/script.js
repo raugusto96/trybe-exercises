@@ -17,7 +17,9 @@ const textColor1 = document.createElement('div');
 textColor1.style.backgroundColor = 'white';
 textColor.appendChild(textColor1);
 
-
+const textColor2 = document.createElement('div');
+textColor2.style.backgroundColor = 'rgb(255, 30, 35)'
+textColor.appendChild(textColor2);
 
 // Tamanho da Fonte
 
