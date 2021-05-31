@@ -12,6 +12,12 @@ const color3 = document.createElement('div');
 color3.style.backgroundColor = 'rgb(75, 75, 75)';
 backgroundColor.appendChild(color3);
 // Cor da fonte
+const textColor = document.querySelector('.text-color-container');
+const textColor1 = document.createElement('div');
+textColor1.style.backgroundColor = 'white';
+textColor.appendChild(textColor1);
+
+
 
 // Tamanho da Fonte
 
