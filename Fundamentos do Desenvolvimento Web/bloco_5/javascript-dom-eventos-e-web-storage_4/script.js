@@ -34,6 +34,9 @@ const fontSize2 = document.createElement('div');
 fontSize2.innerHTML = '25px';
 fontSizing.appendChild(fontSize2);
 
+const fontSize3 = document.createElement('div');
+fontSize3.innerHTML = '30px';
+fontSizing.appendChild(fontSize3);
 // Estilo da Fonte
 
 // Espessura da linha
