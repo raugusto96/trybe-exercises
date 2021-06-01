@@ -134,13 +134,37 @@ fontStyle2.addEventListener('click', function() {
 // Espessura da linha
 const fontSpacing = document.querySelector('.line-container');
 const fontSpace1 = document.createElement('div');
-fontSpace1.innerHTML = '10%';
+fontSpace1.innerHTML = '40px';
 fontSpacing.appendChild(fontSpace1);
 
 const fontSpace2 = document.createElement('div');
-fontSpace2.innerHTML = '20%';
+fontSpace2.innerHTML = '50px';
 fontSpacing.appendChild(fontSpace2);
 
 const fontSpace3 = document.createElement('div');
-fontSpace3.innerHTML = '30%';
+fontSpace3.innerHTML = '60px';
 fontSpacing.appendChild(fontSpace3);
+
+fontSpace1.addEventListener('click', function() {
+  if (body.style.lineHeight === '40px') {
+    body.style.lineHeight = '20px';
+  } else {
+    body.style.lineHeight = '40px';
+  }
+});
+
+fontSpace2.addEventListener('click', function() {
+  if (body.style.lineHeight === '50px') {
+    body.style.lineHeight = '20px';
+  } else {
+    body.style.lineHeight = '50px';
+  }
+});
+
+fontSpace3.addEventListener('click', function() {
+  if (body.style.lineHeight === '60px') {
+    body.style.lineHeight = '20px';
+  } else {
+    body.style.lineHeight = '60px';
+  }
+});
