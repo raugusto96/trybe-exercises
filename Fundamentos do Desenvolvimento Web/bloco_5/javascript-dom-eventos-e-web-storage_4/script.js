@@ -123,6 +123,14 @@ fontStyle2.innerHTML = 'Fantasy';
 fontStyle2.style.marginLeft = '15%';
 fontStylish.appendChild(fontStyle2);
 
+fontStyle1.addEventListener('click', function() {
+  body.style.fontFamily = 'Monospace';
+});
+
+fontStyle2.addEventListener('click', function() {
+  body.style.fontFamily = 'Fantasy';
+});
+
 // Espessura da linha
 const fontSpacing = document.querySelector('.line-container');
 const fontSpace1 = document.createElement('div');
