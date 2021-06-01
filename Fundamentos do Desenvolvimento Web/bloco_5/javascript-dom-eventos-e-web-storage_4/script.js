@@ -1,3 +1,5 @@
+const body = document.querySelector('body');
+
 // Cor do Fundo
 const backgroundColor = document.querySelector('.background-container');
 const color1 = document.createElement('div');
@@ -13,7 +15,6 @@ color3.style.backgroundColor = 'rgb(75, 75, 75)';
 backgroundColor.appendChild(color3);
 
 color1.addEventListener('click', function() {
-  const body = document.querySelector('body');
   if (body.style.backgroundColor === 'green') {
     body.style.backgroundColor = 'white';
   } else {
@@ -22,7 +23,6 @@ color1.addEventListener('click', function() {
 });
 
 color2.addEventListener('click', function() {
-  const body = document.querySelector('body');
   if (body.style.backgroundColor === 'lightblue') {
     body.style.backgroundColor = 'white';
   } else {
@@ -31,7 +31,6 @@ color2.addEventListener('click', function() {
 });
 
 color3.addEventListener('click', function() {
-  const body = document.querySelector('body');
   if (body.style.backgroundColor === 'rgb(75, 75, 75)') {
     body.style.backgroundColor = 'white';
   } else {
@@ -54,44 +53,65 @@ textColor3.style.backgroundColor = 'rgb(100, 100, 100)'
 textColor.appendChild(textColor3);
 
 textColor1.addEventListener('click', function() {
-  const text = document.querySelector('body');
-  if (text.style.color === 'white') {
-    text.style.color = 'black';
+  if (body.style.color === 'white') {
+    body.style.color = 'black';
   } else {
-    text.style.color =  'white';
+    body.style.color =  'white';
   }
 });
 
 textColor2.addEventListener('click', function() {
-  const text = document.querySelector('body');
-  if (text.style.color === 'rgb(255, 30, 35)') {
-    text.style.color = 'black';
+  if (body.style.color === 'rgb(255, 30, 35)') {
+    body.style.color = 'black';
   } else {
-    text.style.color =  'rgb(255, 30, 35)';
+    body.style.color =  'rgb(255, 30, 35)';
   }
 });
 
 textColor3.addEventListener('click', function() {
-  const text = document.querySelector('body');
-  if (text.style.color === 'rgb(100, 100, 100)') {
-    text.style.color = 'black';
+  if (body.style.color === 'rgb(100, 100, 100)') {
+    body.style.color = 'black';
   } else {
-    text.style.color =  'rgb(100, 100, 100)';
+    body.style.color =  'rgb(100, 100, 100)';
   }
 });
 // Tamanho da Fonte
 const fontSizing = document.querySelector('.font-size-container');
 const fontSize1 = document.createElement('div');
-fontSize1.innerHTML = '20px';
+fontSize1.innerHTML = '18px';
 fontSizing.appendChild(fontSize1);
 
 const fontSize2 = document.createElement('div');
-fontSize2.innerHTML = '25px';
+fontSize2.innerHTML = '20px';
 fontSizing.appendChild(fontSize2);
 
 const fontSize3 = document.createElement('div');
-fontSize3.innerHTML = '30px';
+fontSize3.innerHTML = '22px';
 fontSizing.appendChild(fontSize3);
+
+fontSize1.addEventListener('click', function() {
+  if (body.style.fontSize === '18px') {
+    body.style.fontSize = '16px';
+  } else {
+    body.style.fontSize = '18px';
+  }
+});
+
+fontSize2.addEventListener('click', function() {
+  if (body.style.fontSize === '20px') {
+    body.style.fontSize = '16px';
+  } else {
+    body.style.fontSize = '20px';
+  }
+});
+
+fontSize3.addEventListener('click', function() {
+  if (body.style.fontSize === '22px') {
+    body.style.fontSize = '16px';
+  } else {
+    body.style.fontSize = '22px';
+  }
+});
 // Estilo da Fonte
 const fontStylish = document.querySelector('.font-type-container');
 const fontStyle1 = document.createElement('div');
