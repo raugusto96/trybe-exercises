@@ -50,8 +50,35 @@ textColor2.style.backgroundColor = 'rgb(255, 30, 35)'
 textColor.appendChild(textColor2);
 
 const textColor3 = document.createElement('div');
-textColor3.style.backgroundColor = 'rgb(0, 0, 0)'
+textColor3.style.backgroundColor = 'rgb(100, 100, 100)'
 textColor.appendChild(textColor3);
+
+textColor1.addEventListener('click', function() {
+  const text = document.querySelector('body');
+  if (text.style.color === 'white') {
+    text.style.color = 'black';
+  } else {
+    text.style.color =  'white';
+  }
+});
+
+textColor2.addEventListener('click', function() {
+  const text = document.querySelector('body');
+  if (text.style.color === 'rgb(255, 30, 35)') {
+    text.style.color = 'black';
+  } else {
+    text.style.color =  'rgb(255, 30, 35)';
+  }
+});
+
+textColor3.addEventListener('click', function() {
+  const text = document.querySelector('body');
+  if (text.style.color === 'rgb(100, 100, 100)') {
+    text.style.color = 'black';
+  } else {
+    text.style.color =  'rgb(100, 100, 100)';
+  }
+});
 // Tamanho da Fonte
 const fontSizing = document.querySelector('.font-size-container');
 const fontSize1 = document.createElement('div');
