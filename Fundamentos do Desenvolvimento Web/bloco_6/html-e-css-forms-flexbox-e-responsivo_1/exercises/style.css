@@ -37,8 +37,17 @@ body {
   width: 100%;
 }
 
+.line-content textarea {
+  border: 1px solid rgb(214, 217, 220);
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 7px;
+  width: 100%;
+}
+
 .fieldset-style {
   padding: 10px;
+  margin: 20px;
 }
 
 select {
