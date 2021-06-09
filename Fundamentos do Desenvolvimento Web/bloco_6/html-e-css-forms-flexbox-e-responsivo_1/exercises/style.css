@@ -53,3 +53,8 @@ body {
 select {
   font-size: 14px;
 }
+
+button {
+  padding: 7px;
+  font-size: 14px;
+}
