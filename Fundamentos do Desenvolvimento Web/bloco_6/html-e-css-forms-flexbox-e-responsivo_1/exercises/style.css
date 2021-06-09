@@ -8,6 +8,7 @@ body {
   background-color: rgb(54, 54, 54);
   text-align: center;
   color:rgb(245, 245, 245);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -25,4 +26,8 @@ body {
 
 .form-line-field input[type="text"] {
   width: 100%;
+}
+
+.form-line-field input[type="email"] {
+  width: 30%;
 }
