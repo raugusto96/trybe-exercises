@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(54, 54, 54);
+  text-align: center;
+  color:rgb(245, 245, 245);
+}
+
+
+.form-line-content {
+  background-color: rgb(245, 245, 245);
+  margin: 20px auto;
+  text-align: left;
+  width: 50%;
+  color: black;
+}
+
+.form-line-field {
+  padding: 7px;
+}
+
+.form-line-field input[type="text"] {
+  width: 100%;
+}
