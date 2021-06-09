@@ -58,8 +58,41 @@
         </fieldset>
       </div>
 
-      
+      <div class="line-content">
+        <fieldset class="fieldset-style">
+          <legend>
+            Cidade
+          </legend>
+          <label for="city">
+            <input type="text" name="city" id="city" maxlength="28" required placeholder="Cidade">
+          </label>
+        </fieldset>
+      </div>
+
+      <div class="line-content">
+        <label for="states">
+          Todos os Estados do Brasil
+        </label>
+        <select name="states" id="states" required>
+          <option value="">Selecione um estado</option>
+        </select>
+      </div>
+
+      <div class="line-content">
+        <fieldset class="fieldset-style">
+          <legend>
+            Tipo de Moradia
+          </legend>
+          <input type="radio" name="home-type" id="home" required>
+          <label for="home">Casa</label>
+
+          <input type="radio" name="home-type" id="apartment" required> 
+          <label for="apartment">Apartamento</label>
+        </fieldset>
+      </div>
     </div>
   </form>
+
+  <script src="script.js"></script>
 </body>
 </html>

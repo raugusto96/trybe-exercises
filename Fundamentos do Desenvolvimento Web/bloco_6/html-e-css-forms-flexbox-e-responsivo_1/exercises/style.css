@@ -40,3 +40,7 @@ body {
 .fieldset-style {
   padding: 10px;
 }
+
+select {
+  font-size: 14px;
+}
