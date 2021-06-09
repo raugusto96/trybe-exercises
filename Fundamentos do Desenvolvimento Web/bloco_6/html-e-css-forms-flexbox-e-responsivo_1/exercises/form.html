@@ -6,19 +6,47 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Formulário de Cadastro</h1>
-  <div class="form-line-content">
-    <fieldset class="form-line-field">
-      <label for="full-name"> Nome completo:
-        <input type="text" name="full-name" id="full-name" placeholder="Nome Completo" required maxlength="40">
-      </label>
-    </fieldset>
+  <header class="form-header box-style">
+    <h1>Formulário de Cadastro de Currículo</h1>
+  </header>
 
-    <fieldset class="form-line-field">
-      <label for=""> E-mail:
-        <input type="email" name="email" id="email" placeholder="E-mail" required maxlength="50">
-      </label>
-    </fieldset>
-  </div>
+  <form action="">
+
+    <div class="box-style">
+
+      <div class="line-content">
+        <fieldset class="fieldset-style">
+          <legend>
+            Nome
+          </legend>
+          <label for="full-name"> 
+            <input type="text" name="full-name" id="full-name" placeholder="Nome Completo" required maxlength="40">
+          </label>
+        </fieldset>
+      </div>
+
+      <div class="line-content">
+        <fieldset class="fieldset-style">
+          <legend>
+            E-mail
+          </legend>  
+          <label for="email">
+              <input type="text" name="email" id="email" placeholder="E-mail" required maxlength="50">
+            </label>
+        </fieldset>
+      </div>
+
+      <div class="line-content">
+        <fieldset class="fieldset-style">
+          <legend>
+            CPF
+          </legend>
+          <label for="cpf">
+            <input type="text" name="cpf" id="cpf" placeholder="Apenas números" maxlength="11" required>
+          </label>
+        </fieldset>
+      </div>
+    </div>
+  </form>
 </body>
 </html>
