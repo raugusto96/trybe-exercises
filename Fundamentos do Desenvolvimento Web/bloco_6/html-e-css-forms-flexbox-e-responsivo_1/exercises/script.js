@@ -39,7 +39,7 @@ for (let key in brazilStates) {
 function checkEmail() {
   const email = document.querySelector('#email');
   let emailInput = email.value;
-  const formatEmail = /^[a-z0-9.]+@[a-z0-9]+\.[a-z]+$/.test(emailInput);
+  const formatEmail = /^[a-z0-9.]+@[a-z0-9]+\.[a-z]+$/.test(emailInput); // regex gabarito
   if (!formatEmail && emailInput.length) {
     email.value = '';
     alert('Email inválido');
