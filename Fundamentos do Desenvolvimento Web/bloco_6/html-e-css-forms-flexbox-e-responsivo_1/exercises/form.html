@@ -10,7 +10,7 @@
     <h1>Formulário de Cadastro de Currículo</h1>
   </header>
 
-  <form action="">
+  <form action="" id="my-form" method="GET" enctype="multipart/form-data">
 
     <div class="box-style">
 
@@ -37,8 +37,8 @@
         </div>
 
         <div class="line-content">
-            <label for="adress"> Endereço:
-              <input type="text" name="endereco" id="adress" maxlength="200" required placeholder="Endereço com rua e número">
+            <label for="address"> Endereço:
+              <input type="text" name="endereco" id="address" maxlength="200" required placeholder="Endereço com rua e número">
             </label>
         </div>
 
@@ -96,11 +96,14 @@
         </div>
       </fieldset>
       <div class="line-content">
-      <button type="submit">Enviar</button>
+      <button type="submit" id="submit-button">Enviar</button>
+      <button type="reset" id="reset-button">Limpar</button>
       </div>
     
     </div>
   </form>
+
+  <div class="curriculum-content"></div>
   
   <script src="script.js"></script>
 </body>
