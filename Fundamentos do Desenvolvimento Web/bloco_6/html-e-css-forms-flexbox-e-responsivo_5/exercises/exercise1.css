@@ -34,3 +34,12 @@ figure {
       max-width: 40%;  
   }   
 }
+
+@media screen and (min-width: 900px) {
+  body {
+    background-color: crimson;
+    font-size: larger;
+    margin: 100px;
+    max-width: 800px;
+  }
+}
