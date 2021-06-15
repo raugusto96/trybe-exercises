@@ -20,3 +20,9 @@ figure {
     margin: 0;
     padding: 20px 0;
 }
+
+@media screen and (min-width: 800px) {
+  body {
+    background-color: brown;
+  }
+}
