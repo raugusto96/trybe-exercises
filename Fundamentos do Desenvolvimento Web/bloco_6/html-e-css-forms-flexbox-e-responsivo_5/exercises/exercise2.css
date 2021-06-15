@@ -139,3 +139,35 @@ p {
     text-align: justify;
   }
 }
+
+@media screen and (min-width:900px){
+  .aside-one ul {
+    width: 100%;
+    margin: 15px 105px;   
+  }
+    
+  .aside-one li {
+    list-style: none;
+    padding: 10px 0; 
+  }
+
+  .aside-two li {
+    list-style: square;
+    margin: 10px 95px;
+    padding: 5px 0;
+  }
+
+  .main-content h1 {
+    width: 100%;
+    padding: 15px 105px;
+  }
+
+  .main-content p {
+    width: 55%;
+    padding: 35px 0;
+  }
+
+  footer p {
+    width: 50%;
+  }
+}
