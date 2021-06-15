@@ -24,5 +24,6 @@ figure {
 @media screen and (min-width: 800px) {
   body {
     background-color: brown;
+    font-size: 1.75em;
   }
 }
