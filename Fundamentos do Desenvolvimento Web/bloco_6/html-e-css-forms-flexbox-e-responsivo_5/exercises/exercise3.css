@@ -95,3 +95,37 @@
     width: 100%;
   }
 }
+
+@media screen and (min-width: 240px) and (max-width: 640px) {
+  * {
+		margin: 0;
+		padding: 0;
+	}
+
+	#header {
+		position: fixed;
+    width: 100%;
+	}
+	#navigation {
+		margin-top: 90px;
+	}
+	#header, #navigation{
+		width: 100%;
+	}
+	#aside {
+		display: none;
+	}
+	#content {
+		margin: 0;
+		width: 100%;
+	}
+	img {
+		width: 360px;
+		height: 300px;
+	}
+	
+	#navigation li a {
+		flex-wrap: wrap;
+		width: 100%;
+	}
+}
