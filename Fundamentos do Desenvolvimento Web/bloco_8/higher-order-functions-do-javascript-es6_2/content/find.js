@@ -13,3 +13,18 @@ const names = ['João', 'Irene', 'Fernando', 'Maria'];
 const findNameWithFiveLetters = (array) => names.find((string) => string.length === 5);
 
 console.log(findNameWithFiveLetters(names));
+
+// // Exercise - 3
+
+const musicas = [
+  { id: '31031685', title: 'Partita in C moll BWV 997' },
+  { id: '31031686', title: 'Toccata and Fugue, BWV 565' },
+  { id: '31031687', title: 'Chaconne, Partita No. 2 BWV 1004' },
+]
+
+// Adicione seu código aqui
+function findMusic(id) {
+  return musicas.find((id) => id);
+}
+
+console.log(findMusic('31031685'))
