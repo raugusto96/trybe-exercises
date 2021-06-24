@@ -10,7 +10,6 @@ console.log(findDivisibleBy3And5(numbers))
 const names = ['João', 'Irene', 'Fernando', 'Maria'];
 
 // Adicione seu código aqui:
-const findNameWithFiveLetters = () => {
-}
+const findNameWithFiveLetters = (array) => names.find((string) => string.length === 5);
 
-console.log(findNameWithFiveLetters());
+console.log(findNameWithFiveLetters(names));
