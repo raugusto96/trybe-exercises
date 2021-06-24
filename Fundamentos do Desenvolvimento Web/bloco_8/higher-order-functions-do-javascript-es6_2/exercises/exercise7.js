@@ -68,8 +68,21 @@ const books = [
 const expectedResult = false;
 
 // escreva seu código aqui
-const authorUnique = () => books.every((book) => {
-  !books.some((someBook) => (someBook.author.birthYear === someBook.author.birthYear) && (book.author.name !== book.author.name));
-});
+const authorUnique = () => {
+  return books.every((book) => 
+    books.some((someBook) => 
+      (someBook.author.birthYear === someBook.author.birthYear)
+      && (book.author.name !== book.author.name)));
+    }
+
+    // Gabarito
+// function authorUnique() {
+//   return books.every((book) =>
+//     !books.some((bookSome) =>
+//       (bookSome.author.birthYear === book.author.birthYear)
+//       && (bookSome.author.name !== book.author.name)));
+// }
+
+console.log(authorUnique());
 
 assert.strictEqual(authorUnique(), expectedResult);
