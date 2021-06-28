@@ -65,13 +65,11 @@ const books = [
 
 // Adicione o código do exercício aqui:
 
-const expectedResult = " George R. R. Martin, J. R. R. Tolkien, Isaac Asimov, Frank Herbert, Stephen King, H. P. Lovecraft.";
+const expectedResult = "George R. R. Martin, J. R. R. Tolkien, Isaac Asimov, Frank Herbert, Stephen King, H. P. Lovecraft.";
 
 // escreva seu código aqui
-const reduceNames = (acc, curr, index, array) => index === array.length - 1 ? `${acc} ${curr.author.name}.` : `${acc} ${curr.author.name},`;
-
-const allNames = (array) => array.reduce(reduceNames, ''); 
+const reduceNames = (array) => array.reduce((accumulator, current, index) => index === array.length - 1 ? `${accumulator}${current.author.name}.` : `${accumulator}${current.author.name}, `, ''); 
 
 // console.log(allNames(books));
 
-assert.strictEqual(allNames(books), expectedResult);
+assert.strictEqual(reduceNames(books), expectedResult);
