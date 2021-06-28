@@ -65,18 +65,9 @@ const books = [
 
 // Adicione o código do exercício aqui:
 
-const expectedResult = {
-  author: {
-    birthYear: 1948,
-    name: 'George R. R. Martin',
-  },
-  genre: 'Fantasia',
-  id: 1,
-  name: 'As Crônicas de Gelo e Fogo',
-  releaseYear: 1991,
-};
+const expectedResult = 'As Crônicas de Gelo e Fogo';
 
 // escreva seu código aqui
-const longestNamedBook = (array) => array.reduce((acc, curr) => acc.name.length > curr.name.length ? acc : curr);
+const longestNamedBook = (array) => array.reduce((acc, curr) => acc.name.length > curr.name.length ? acc : curr).name;
 
 assert.deepStrictEqual(longestNamedBook(books), expectedResult);
