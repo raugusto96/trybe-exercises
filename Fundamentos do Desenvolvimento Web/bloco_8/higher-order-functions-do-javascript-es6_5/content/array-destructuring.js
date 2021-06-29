@@ -30,6 +30,6 @@ console.log(numerosPares); // [6, 8, 10, 12];
 
 // Utilize array destructuring para produzir o resultado esperado pelo console.log abaixo
 
-const [,,,six, eight, ten, twelve] = numerosPares;
+[,,,...numerosPares] = numerosPares;
 
-console.log(six, eight, ten, twelve); // [6, 8, 10, 12];
+console.log(numerosPares); // [6, 8, 10, 12];
