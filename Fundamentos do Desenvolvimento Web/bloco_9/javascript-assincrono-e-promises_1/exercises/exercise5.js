@@ -12,9 +12,8 @@ const greet = (temperature) => console.log(`Hi there! Curiosity here. Right now 
 // definição da função sendMarsTemperature...
 const sendMarsTemperature = (callback) => {
   const maxTemperature = getMarsTemperature();
-  callback(toFahrenheit(maxTemperature));
   setTimeout(() =>
-  console.log(`Mars temperature is: ${maxTemperature} degree Celsius`)
+    callback(maxTemperature)
   , messageDelay());
 }
 
