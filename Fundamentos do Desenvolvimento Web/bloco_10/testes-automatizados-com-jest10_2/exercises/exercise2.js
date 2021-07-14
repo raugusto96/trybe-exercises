@@ -17,8 +17,4 @@ const users = {
     return findUserById(userID).then(user => user.name);
   };
 
-  module.exports = {
-    users,
-    findUserById,
-    getUserName,
-  };
+  module.exports = getUserName;

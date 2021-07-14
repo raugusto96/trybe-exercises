@@ -1,6 +1,4 @@
-const {
-  getUserName,
-} = require('./exercise2');
+const getUserName = require('./exercise2');
 
 // Com try/catch
 describe('getUserName - async/await', () => {
