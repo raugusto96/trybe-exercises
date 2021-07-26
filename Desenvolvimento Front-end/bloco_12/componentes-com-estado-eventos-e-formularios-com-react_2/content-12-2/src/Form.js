@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-
+import FavoriteGame from './components/FavoriteGame';
+import Input from './components/Input';
 class Form extends Component {
   constructor() {
     super();
@@ -23,36 +24,15 @@ class Form extends Component {
     });
   }
 
-
   render() {
     return (
       <div>
       <h1>Meu formulário!</h1>
       <form className="form">
         <fieldset>
-          <label>
-            Diga seu jogo preferido!
-              <textarea
-                name="favoriteGame"
-                value={ this.state.favoriteGame }
-                onChange={ this.handleChange } />
-          </label>
-          <label>
-            Já jogou?
-          <input
-            type="checkbox"
-            name="played"
-            value={ this.state.played }
-            onChange={ this.handleChange } />
-          </label>
-          <label>
-            Vezes que zerou:
-          <input
-            type="number"
-            name="age"
-            value={ this.state.age }
-            onChange={ this.handleChange } />
-          </label>
+          <FavoriteGame handleChange={ this.handleChange } value={ this.state.favoriteGame } />
+          <Input handleChange={ this.handleChange } value={ this.state.age } type="checkbox" name="played" />
+          <Input handleChange={ this.handleChange } value={ this.state.age } type="number" name="age" />
           <label>
             Escolha seu jogo preferido:
           <select
