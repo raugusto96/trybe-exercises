@@ -91,31 +91,31 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 11: Introdução - React
 
 - [x] 11-1: _'Hello, world!' no React!_
-- [ ] 11-2: _Componentes React_
-- [ ] 11-3: _Projeto - Movie Cards Library_
+- [x] 11-2: _Componentes React_
+- [x] 11-3: _Projeto - Movie Cards Library_
 
 ##### Bloco 12: React
 
-- [ ] 12-1: _Components com estado e eventos_
-- [ ] 12-2: _Formulários no React_
-- [ ] 12-3: _Projeto - Movie Cards Library Stateful_
+- [x] 12-1: _Components com estado e eventos_
+- [x] 12-2: _Formulários no React_
+- [x] 12-3: _Projeto - Movie Cards Library Stateful_
 
 ##### Bloco 13: Ciclo de Vida de Componentes & React Router
 
-- [ ] 13-2: _Ciclo de vida de componentes_
-- [ ] 13-3: _React Router_
-- [ ] 13-4: _Projeto - Movie Cards Library CRUD_
+- [x] 13-2: _Ciclo de vida de componentes_
+- [x] 13-3: _React Router_
+- [x] 13-4: _Projeto - Movie Cards Library CRUD_
 
 ##### Bloco 14: Metodologias Ágeis
 
-- [ ] 14-1: _Metodologias Ágeis_
-- [ ] 14-2: _Projeto - Frontend Online Store_
+- [x] 14-1: _Metodologias Ágeis_
+- [x] 14-2: _Projeto - Frontend Online Store_
 
 ##### Bloco 15: Testes em React
 
-- [ ] 15-1: _RTL - Primeiros Passos_
-- [ ] 15-2: _RTL - Mocks e Inputs_
-- [ ] 15-2: _RTL - Testando React Router_
+- [x] 15-1: _RTL - Primeiros Passos_
+- [x] 15-2: _RTL - Mocks e Inputs_
+- [x] 15-2: _RTL - Testando React Router_
 - [ ] 15-3: _Projeto - Testes em React_
 
 ##### Bloco 16: Introdução ao Redux
