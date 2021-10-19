@@ -125,7 +125,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 16-3: _React com Redux - Prática_
 - [x] 16-4: _React com Redux - Actions Assíncronas_
 - [x] 16-5: _Testes síncronos com React-Redux_
-- [x] 16-6: _Projeto - Trybe Wallet_
+- [x] 16-6: _[Projeto - Trybe Wallet](https://github.com/raugusto96/trybe-wallet)_
 
 ##### Bloco 17: Projeto React
 
