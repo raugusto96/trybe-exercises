@@ -150,135 +150,142 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 20-2: _Encontrando dados em um banco de dados_
 - [x] 20-3: _Filtrando dados de forma específica_
 - [x] 20-4: _Manipulando tabelas_
-- [ ] 20-5: _Projeto - All For One_
+- [x] 20-5: _Projeto - All For One_
 
 ##### Bloco 21: Bancos de dados relacionais
 
-- [ ] 21-1: _Funções mais usadas no SQL_
-- [ ] 21-2: _Descomplicando JOINs e UNIONs e Subqueries_
-- [ ] 21-3: _Stored Routines & Stored Functions_
-- [ ] 21-4: _Projeto - Vocabulary Booster_
+- [x] 21-1: _Funções mais usadas no SQL_
+- [x] 21-2: _Descomplicando JOINs e UNIONs e Subqueries_
+- [x] 21-3: _Stored Routines & Stored Functions_
+- [x] 21-4: _Projeto - Vocabulary Booster_
 
 ##### Bloco 22: Bancos de dados relacionais
 
-- [ ] 22-1: _Transformando ideias em um modelo de banco de dados_
-- [ ] 22-2: _Normalização, Formas Normais e Dumps_
-- [ ] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
-- [ ] 22-3: _Projeto - One For All_
+- [x] 22-1: _Transformando ideias em um modelo de banco de dados_
+- [x] 22-2: _Normalização, Formas Normais e Dumps_
+- [x] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
+- [x] 22-3: _Projeto - One For All_
 
-##### Bloco 23: Introdução - NoSQL
+##### Bloco 23: Docker - Utilizando Containers
 
-- [ ] 23-1: _MongoDB - Introdução_
-- [ ] 23-2: _Filter Operators_
-- [ ] 23-3: _Projeto - Data Flights_
+- [x] 23-1: _Utilizando containers - Docker_
+- [x] 23-2: _Manipulação e Criação de imagens no Docker_
+- [x] 23-3: _Orquestrando containers com Docker Compose_
+- [x] 23-4: _Projeto - Docker Todo-List_
 
-##### Bloco 24: Updates
+##### Bloco 24: Introdução - NoSQL
 
-- [ ] 24-1: _Updates Simples_
-- [ ] 24-2: _Updates Complexos - Arrays - Parte 1_
-- [ ] 24-3: _Updates Complexos - Arrays - Parte 2_
-- [ ] 24-4: _Projeto - Commerce_
+- [x] 24-1: _MongoDB - Introdução_
+- [x] 24-2: _Filter Operators_
+- [ ] 24-3: _Projeto - Data Flights_
 
-##### Bloco 25: Aggregation Framework
+##### Bloco 25: Updates
 
-- [ ] 25-1: _Aggregation Framework - Part 1_
-- [ ] 25-2: _Aggregation Framework - Part 2_
-- [ ] 25-3: _Projeto - Aggregations_
+- [ ] 25-1: _Updates Simples_
+- [ ] 25-2: _Updates Complexos - Arrays - Parte 1_
+- [ ] 25-3: _Updates Complexos - Arrays - Parte 2_
+- [ ] 25-4: _Projeto - Commerce_
 
-##### Bloco 26: Intro - NodeJS
+##### Bloco 26: Aggregation Framework
 
-- [ ] 26-1: _NodeJS - Introdução_
-- [ ] 26-2: _NodeJS - Fluxo Assíncrono_
-- [ ] 26-3: _NodeJS - Arquitetura_
-- [ ] 26-4: _Express: HTTP com Node.js_
-- [ ] 26-5: _Praticando Express_
-- [ ] 26-6: _Projeto - Crush Manager_
+- [ ] 26-1: _Aggregation Framework - Part 1_
+- [ ] 26-2: _Aggregation Framework - Part 2_
+- [ ] 26-3: _Projeto - Aggregations_
 
-##### Bloco 27: NodeJS
+##### Bloco 27: Intro - NodeJS
 
-- [ ] 27-1: _Arquitetura de Software - Camada de Model_
-- [ ] 27-2: _Arquitetura de Software - Camada de Controller e Service_
-- [ ] 27-3: _Arquitetura web - Rest e Restful_
-- [ ] 27-4: _Projeto - Store Manager_
+- [ ] 27-1: _NodeJS - Introdução_
+- [ ] 27-2: _NodeJS - Fluxo Assíncrono_
+- [ ] 27-3: _NodeJS - Arquitetura_
+- [ ] 27-4: _Express: HTTP com Node.js_
+- [ ] 27-5: _Praticando Express_
+- [ ] 27-6: _Projeto - Crush Manager_
 
 ##### Bloco 28: NodeJS
 
-- [ ] 28-1: _NodeJS - JWT - (JSON Web Token)_
-- [ ] 28-2: _NodeJS - Upload de arquivos com Multer_
-- [ ] 28-3: _Projeto - Cookmaster_
+- [ ] 28-1: _Arquitetura de Software - Camada de Model_
+- [ ] 28-2: _Arquitetura de Software - Camada de Controller e Service_
+- [ ] 28-3: _Arquitetura web - Rest e Restful_
+- [ ] 28-4: _Projeto - Store Manager_
 
-##### Bloco 29: Introdução - Deploy
+##### Bloco 29: NodeJS
 
-- [ ] 29-1: _Infraestrutura - Deploy com Heroku_
-- [ ] 29-2: _Deploy - Gerenciadores de Processos_
-- [ ] 29-3: _Projeto - Stranger Things_
+- [ ] 29-1: _NodeJS - JWT - (JSON Web Token)_
+- [ ] 29-2: _NodeJS - Upload de arquivos com Multer_
+- [ ] 29-3: _Projeto - Cookmaster_
 
-##### Bloco 30: Projeto
+##### Bloco 30: Introdução - Deploy
 
-- [ ] 30-1: _Projeto - Trybeer_
+- [ ] 30-1: _Infraestrutura - Deploy com Heroku_
+- [ ] 30-2: _Deploy - Gerenciadores de Processos_
+- [ ] 30-3: _Projeto - Stranger Things_
 
-##### Bloco 31: SOLID & ORM
+##### Bloco 31: Projeto
 
-- [ ] 31-1: _Arquitetura - Princípios SOLID_
-- [ ] 31-2: _ORM - Interface da aplicação com o banco de dados_
-- [ ] 31-3: _ORM - Associations_
-- [ ] 31-4: _Boas práticas na escrita de testes_
-- [ ] 31-5: _Projeto - API de Blogs_
+- [ ] 31-1: _Projeto - Trybeer_
 
-##### Bloco 32: Sockets
+##### Bloco 32: SOLID & ORM
 
-- [ ] 32-1: _Arquitetura de Software - Camada de View_
-- [ ] 32-2: _Sockets - TCP/UDP & NET_
-- [ ] 32-2: _Sockets - Socket.io_
-- [ ] 32-3: _Projeto - Webchat_
+- [ ] 32-1: _Arquitetura - Princípios SOLID_
+- [ ] 32-2: _ORM - Interface da aplicação com o banco de dados_
+- [ ] 32-3: _ORM - Associations_
+- [ ] 32-4: _Boas práticas na escrita de testes_
+- [ ] 32-5: _Projeto - API de Blogs_
 
-##### Bloco 33: Projeto
+##### Bloco 33: Sockets
 
-- [ ] 33-1: _Projeto - Trybeer V2_
+- [ ] 33-1: _Arquitetura de Software - Camada de View_
+- [ ] 33-2: _Sockets - TCP/UDP & NET_
+- [ ] 33-2: _Sockets - Socket.io_
+- [ ] 33-3: _Projeto - Webchat_
+
+##### Bloco 34: Projeto
+
+- [ ] 34-1: _Projeto - Trybeer V2_
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
-##### Bloco 34: Introdução - Ciência da Computação
+##### Bloco 35: Introdução - Ciência da Computação
 
-- [ ] 34-1: _Arquitetura de Computadores_
-- [ ] 34-2: _Arquitetura de redes_
-- [ ] 34-3: _Redes de computadores, ferramentas e segurança_
-- [ ] 34-4: _Projeto - Explorando os protocolos_
+- [ ] 35-1: _Arquitetura de Computadores_
+- [ ] 35-2: _Arquitetura de redes_
+- [ ] 35-3: _Redes de computadores, ferramentas e segurança_
+- [ ] 35-4: _Projeto - Explorando os protocolos_
 
-##### Bloco 35: Python
+##### Bloco 36: Python
 
-- [ ] 35-1: _Aprendendo Python_
-- [ ] 35-2: _Entrada e Saída de dados_
-- [ ] 35-3: _Raspagem de dados_
+- [ ] 36-1: _Aprendendo Python_
+- [ ] 36-2: _Entrada e Saída de dados_
+- [ ] 36-3: _Raspagem de dados_
 - [ ] 36-4: _Testes_
-- [ ] 35-5: _Projeto - Tech news_
+- [ ] 36-5: _Projeto - Tech news_
 
-##### Bloco 36: POO & Padrões de Projeto
+##### Bloco 37: POO & Padrões de Projeto
 
-- [ ] 36-1: _Introdução a POO_
-- [ ] 36-2: _POO na prática_
-- [ ] 36-3: _Padrões de Projeto_
-- [ ] 36-4: _Projeto - Relatórios de Estoque_
-
-##### Bloco 37: Algoritmos e Estrutura de Dados
-
-- [ ] 37-1: _Estrutura de Dados I - Arrays_
-- [ ] 37-2: _Estrutura de Dados I - Complexidade de Algoritmos_
-- [ ] 37-3: _Recursividade e Estratégias para solução de problemas_
-- [ ] 37-4: _Algoritmos de ordenação e busca_
-- [ ] 37-5: _Projeto - Algoritmos_
+- [ ] 37-1: _Introdução a POO_
+- [ ] 37-2: _POO na prática_
+- [ ] 37-3: _Padrões de Projeto_
+- [ ] 37-4: _Projeto - Relatórios de Estoque_
 
 ##### Bloco 38: Algoritmos e Estrutura de Dados
 
-- [ ] 38-1: _Estrutura de Dados II - Hash maps e Dict_
-- [ ] 38-2: _Estrutura de Dados II - Set_
-- [ ] 38-3: _Projeto - Restaurant Orders_
+- [ ] 38-1: _Estrutura de Dados I - Arrays_
+- [ ] 38-2: _Estrutura de Dados I - Complexidade de Algoritmos_
+- [ ] 38-3: _Recursividade e Estratégias para solução de problemas_
+- [ ] 38-4: _Algoritmos de ordenação e busca_
+- [ ] 38-5: _Projeto - Algoritmos_
 
 ##### Bloco 39: Algoritmos e Estrutura de Dados
 
-- [ ] 39-1: _Estrutura de Dados III - Pilhas_
-- [ ] 39-2: _Estrutura de Dados III - Deque_
-- [ ] 39-3: _Estrutura de Dados III - Nó e Listas ligadas_
-- [ ] 39-4: _Estrutura de Dados III - Listas duplamente ligadas_
-- [ ] 39-5: _Projeto - TING - Trybe Is Not Google_
+- [ ] 39-1: _Estrutura de Dados II - Hash maps e Dict_
+- [ ] 39-2: _Estrutura de Dados II - Set_
+- [ ] 39-3: _Projeto - Restaurant Orders_
+
+##### Bloco 40: Algoritmos e Estrutura de Dados
+
+- [ ] 40-1: _Estrutura de Dados III - Pilhas_
+- [ ] 40-2: _Estrutura de Dados III - Deque_
+- [ ] 40-3: _Estrutura de Dados III - Nó e Listas ligadas_
+- [ ] 40-4: _Estrutura de Dados III - Listas duplamente ligadas_
+- [ ] 40-5: _Projeto - TING - Trybe Is Not Google_
 
